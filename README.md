@@ -1,2 +1,3 @@
-# ui-code-daily-backend
-UI Code Daily | Free Open Source Code Resources
+# Strapi application
+
+A quick description of your strapi application

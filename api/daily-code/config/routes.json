@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/daily-codes",
+      "handler": "daily-code.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daily-codes/count",
+      "handler": "daily-code.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daily-codes/:id",
+      "handler": "daily-code.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/daily-codes",
+      "handler": "daily-code.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/daily-codes/:id",
+      "handler": "daily-code.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/daily-codes/:id",
+      "handler": "daily-code.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
